@@ -13,7 +13,6 @@ async function getSalesData() {
     _sum: { pricePaidInCents: true },
     _count: true,
   });
-
   return {
     amount: (data._sum.pricePaidInCents || 0) / 100,
     numberOfSales: data._count,
@@ -44,6 +43,11 @@ async function getProductData() {
   ]);
 
   return { activeCount, inactiveCount };
+}
+
+// wait function: usage => await wait(x);
+function wait(duration: number) {
+  return new Promise((resolve) => setTimeout(resolve, duration));
 }
 
 export default async function AdminDashboard() {
