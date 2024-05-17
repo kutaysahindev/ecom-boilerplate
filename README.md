@@ -21,8 +21,8 @@ A modular e-commerce boilerplate built with cutting-edge technologies: Next.js, 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/e-commerce-boilerplate.git
-   cd e-commerce-boilerplate
+   git clone https://github.com/kutaysahindev/ecom-boilerplate.git
+   cd ecom-boilerplate
    ```
 
 2. **Install dependencies:**
